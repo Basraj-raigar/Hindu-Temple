@@ -1,0 +1,400 @@
+*{padding: 0; margin: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; list-style: none;}
+/*/////// header /// */
+#head{
+    background-color: #fff8f1;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+.main_head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px;
+}
+.logo{
+    width: 14%;
+}
+.logo a img{
+    width: 100%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    margin-right: 15px;
+    font-size: 15px;
+}
+.navbar-expand-lg .navbar-nav .nav-link span {
+    color: #ecb34b;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #ecb34b;
+}
+.donate-btn{
+    margin-left: 35px;
+}
+.donate-btn button{
+    padding: 7px 35px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #ecb34b;
+    border: 2px solid #ccc;
+
+}
+.hvr-ripple-out:before {
+    border-radius: 20px;
+    visibility: hidden;
+}
+.hvr-ripple-out:hover::before{
+    visibility: visible;
+}
+.donate-btn button:hover{
+    color: #ffffff;
+    background-color: rgb(51 51 51);
+}
+
+    /* ========== hero start =========////////////// */
+
+    .hero_area{
+        background-image: url(../image/about/diya-gb727b121a_1920.jpg);
+        background-repeat: no-repeat;
+    background-position: center center;
+    border-bottom-width: 0px;
+    padding-top: 136px;
+    padding-bottom: 131px;
+    background-size: cover;
+    }
+    .bg-overlay-black-4{
+        position: relative;
+    }
+    .bg-overlay-black-4::before{
+        
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.4);
+    content: "";
+    border-radius: 5px;
+    }
+.hero_title{
+    color: #fff;
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.hero_list{
+    margin-top: 15px;
+}
+.hero_item{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 1.58;
+    text-transform: uppercase;
+    color: #fff;
+  
+}
+.ol, ul {
+    padding-left: 0px;
+}
+.hero_item a{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.hero_list a:hover{
+    color: #f2b263;
+    text-decoration: underline;
+    transition: 0.5s;
+    
+}
+.hero_item {
+    color: #fff;
+    font-size: 16px; 
+}
+.hero_item a::after{
+    content: "";
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    position: absolute;
+    left: auto;
+    right: 0;
+    z-index: -1;
+}
+.hero_item::before{
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #fff;
+    content: "/";
+
+}
+/* ========///////// mandir-start ====//////// */
+.mandir_area{
+    padding: 115px 0 50px 0;
+}
+.mandir_title h3{
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 300;
+    font-size: 36px;
+    padding-bottom: 20px;
+    position: relative;
+    display: inline-block;
+}
+.mandir_img img{
+    width: 100%;
+}
+.mandir_title h3::after{
+    left: 0%;
+    position: absolute;
+    bottom: 0;
+    content: "";
+    height: 4px;
+    width: 75px;
+    background: #e5e5e5;
+}
+.mandir_contant{
+    margin: 30px 0 0 45px;
+}
+
+/* ---------------------------------------
+count section start               
+------------------------------------------- */
+.count-section{
+    padding: 0 0 60px 0;
+}
+.counter_box{
+    width: 80%;
+    flex-basis: 20%;
+    margin-top: 65px;
+	text-align: center;
+	box-shadow:inset -2px -2px 8px rgba(255,255,255,1),
+				inset -2px -2px 12px rgba(255,255,255,0.5),
+				inset 2px 2px 4px rgba(255,255,255,0.1),
+				inset 2px 2px 8px rgba(0,0,0,0.15);
+	border-radius: 10px;
+	padding: 10px;
+	border-bottom: 5px solid #3b1212;
+}
+
+.counter_box img{
+    width: 25%;
+    margin-bottom: 15px;
+}
+.counter_box p{
+    font-size: 18px;
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 300;
+}
+.counter_box h1 span{
+    font-size: 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+}
+
+/* ---------------------------------------
+count section end               
+------------------------------------------- */
+
+/* ---------------------------------------
+video section start               
+------------------------------------------- */
+.video_head{
+    text-align: center;
+    margin-top: 50px;
+}
+.video_head h3{
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 400;
+    font-size: 32px;
+    padding-bottom: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.video_head h3::after{
+    left: 30%;
+    position: absolute;
+    bottom: 0;
+    content: "";
+    height: 4px;
+    width: 91px;
+    background: #e5e5e5;
+}
+
+.hindu_video{
+    padding: 0px 100px 100px 100px; 
+    margin-top: 4em;
+    
+}
+
+.hindu_video_bg{
+    background-image: url(../image/about/about-video.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+   
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bg_overley_black::before{
+    
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    content: "";
+    border-radius: 5px;
+}
+.video_contant{
+    padding: 150px 0px 150px 0;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+   
+}
+.video_contant .icon a i{
+    font-size: 90px;
+    color: #f3eeee;
+    margin-bottom: 30px;
+    display: block;
+}
+
+/* ---------------------------------------
+video section end              
+------------------------------------------- */
+
+/* ===////////////////////====== footer-start ===/////////////////////==== */
+.footer-area{
+    background-color: #1a1a1a;
+}
+.footer-top{
+    padding: 80px 0;
+    color: #fff;
+}
+.footer_title{
+    position: relative;
+    margin-bottom: 40px;
+   
+}
+.footer_title h6{
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    font-family: "Open Sans",sans-serif;
+}
+.footer_title::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background: #fff;
+}
+.footer_contant ul li{
+    margin-bottom: 15px;
+   
+    
+}
+.footer_contant ul{
+    padding: 0;
+    margin: 0;
+}
+.footer_contant ul li a{
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+
+}
+.footer_contant ul li a:hover{
+    color: #f2b263;
+
+}
+.footer_logo{
+    margin-bottom: 15px;
+    width: 50%;
+}
+.footer_logo a img{
+    width: 100%;
+}
+.news_letter_box{
+    position: relative;
+}
+.footer_contant .news_letter_box input{
+    background: #fff;
+    width: 100%;
+    border: none;
+    padding: 8px 50px 8px 10px;
+    color: #333;
+    border-radius: 25px;
+    position: relative;
+    margin-bottom: 20px;
+    outline: none;
+}
+.footer_contant .news_letter_box button{
+    background: rgba(0,0,0,0);
+    color: #333;
+    position: absolute;
+    right: 0px;
+    border: none;
+    font-size: 20px;
+    padding: 0px 17px;
+    top: 4px;
+}
+.bi bi-send::before{
+    content: "\f11d";
+}
+.footer_socia_share li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 30px;;
+}
+/* ======/////////// footer bottem start =====////////// */
+
+.footer_bottem{
+    border-top: 1px solid #707070;
+}
+.copy_right_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.copy_right_box p,a{
+    color: #fff;
+    text-decoration: none;
+    color: #fff;
+}
+.copy_right_box p a:hover{
+    color: #f2b263;
+
+}
+
+/* ===////////////////////====== footer-end ===/////////////////////==== */
+@media(max-width:425px){
+    .donate-btn{
+        display: none;
+    }
+    #head{
+        position: sticky;
+    }
+   .logo{
+    width: 60%;
+   }
+   .navbar-nav{
+    margin-top: 10px;
+   }
+}
+
